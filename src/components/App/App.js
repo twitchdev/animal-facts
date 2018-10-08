@@ -70,7 +70,15 @@ export default class App extends React.Component{
                     <p>Did you know that: {this.state.fact}</p>
                 </div>
             )
-        }else{
+        }
+        else if(this.state.finishedLoading){
+            return(
+                <div className={this.state.theme === 'light' ? "App App-light" : "App App-dark"}>
+                    Extension not configured.
+                </div>
+            )
+        }
+        else{
             return (
                 <div className="App">
                     Loading...
