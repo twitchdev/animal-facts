@@ -1,0 +1,8 @@
+/_vendor-20180917101626
+/animal-facts-ebs
+.DS_Store
+/node_modules
+/conf
+/ebs/server.pem
+/ebs/server.key
+/ebs/ebs
