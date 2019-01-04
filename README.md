@@ -28,8 +28,8 @@ First, clone the repository into the folder of your choice.
 Next, do the following: 
 
 1. Change directories to the cloned folder.
-2. Run `yarn install` to install all prerequisite packages needed to run the frontend. 
-3. Run `yarn cert` to generate the needed certificates; this allows the frontend and EBS servers to be run over HTTPS.
+2. ONLY IF RUNNING LOCALLY (not in the developer rig): Run `yarn install` to install all prerequisite packages needed to run the frontend. 
+3. ONLY IF RUNNING LOCALLY (not in the developer rig): Run `yarn cert` to generate the needed certificates; this allows the frontend and EBS servers to be run over HTTPS.
 4. Change directories to the `/ebs` folder.
 5. Open the `.env` file and set your extension `Client ID`, `Secret`, and the `User ID` of the extension owner (likely you).
 6. Run `dep ensure` to install all prerequisite packages needed to run the EBS. 
