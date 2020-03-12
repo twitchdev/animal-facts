@@ -21,7 +21,7 @@ brew install dep
 
 ## First time Usage
 
-The recommended path to using this sample is with the [Developer Rig](/twitchdev/developer-rig).
+The recommended path to using this sample is with the [Developer Rig](https://dev.twitch.tv/docs/extensions/rig/).
 
 First, clone the repository into the folder of your choice. 
 
